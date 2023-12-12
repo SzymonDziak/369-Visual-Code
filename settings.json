@@ -1,0 +1,443 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "dart.flutterSdkPath": "/Users/szymondziak/fvm/default/bin/cache/dart-sdk",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  // "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "git.autofetch": true,
+  "editor.largeFileOptimizations": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "cSpell.userWords": [
+    "firestore",
+    "imoprt",
+    "screenutil"
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": false,
+  "sync.gist": "a9bd5e916d5a0047960bf6243bcf7e3a",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "editor.maxTokenizationLineLength": 2000000,
+  "cSpell.languageSettings": [],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "editor.inlineSuggest.showToolbar": "always",
+  "githubPullRequests.pullBranch": "never",
+  "vue.codeActions.savingTimeLimit": 5000,
+  "dart.openDevTools": "flutter",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorTheme": "Transparent Color Theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "window.zoomLevel": 1,
+  "animations.Install-Method": "Apc Customize UI++",
+  "update.mode": "default",
+  "apc.imports": [
+    "file:///Users/szymondziak/.cursor/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "apc.stylesheet": {
+    "body": {
+      // other panels should be transparent see "workbench.colorCustomizations"
+      // "background-image": "url(/Users/szymondziak/Desktop/369_LighterGreen_App_Logo_2023.png), linear-gradient(to top,rgba(0, 0, 2.5, 5.5), rgba(0,0, 0.9, 0.9))",
+      "background-size": "cover",
+      "background-blend-mode": "multiply",
+      "background-repeat": "no-repeat"
+    }
+  },
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 25
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 20,
+    "fontSize": 12
+  },
+  "apc.menubar.compact": true,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 7,
+      "y": 5
+    },
+    "backgroundColor": "rgba(123, 123, 123, 0.5)",
+    "frame": false,
+    "transparent": true,
+    "vibrancy": "ultra-dark",
+    "opacity": 0.99, // Range: 0-1 (To go fully transparent, set it to 0)
+    "visualEffectState": "active"
+  },
+  "apc.header": {
+    "height": 25,
+    "fontSize": 11
+  },
+  "apc.listRow": {
+    "height": 25,
+    "fontSize": 12
+  },
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "editor.fontSize": 13,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Default",
+        "scope": [
+          "support.type.property-name.json",
+          "meta.attribute.unrecognized",
+          "support.type.property-name.css",
+          "meta.field.declaration",
+          "meta.template.expression",
+        ],
+        "settings": {
+          "foreground": "#ff0000"
+        }
+      },
+      {
+        "name": "Red",
+        "scope": [
+          "variable.other.constant",
+          "variable.other.constant.property",
+          "variable.other.object",
+          "class",
+        ],
+        "settings": {
+          "foreground": "#ff0000" // Replace with the desired color for value
+        }
+      },
+      {
+        "name": "Grey - comments",
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "foreground": "#FF3F34"
+        }
+      },
+      {
+        "name": "Green - string",
+        "scope": [
+          "string.quoted.single",
+          "string.quoted.double",
+          "string.template",
+          "punctuation.definition.string.template",
+          "variable.parameter.url.css"
+        ],
+        "settings": {
+          "foreground": "#98c379"
+        }
+      },
+      {
+        "name": "Purple - number",
+        "scope": [
+          "constant.numeric",
+          "keyword.other.unit",
+          "constant.other.color.rgb-value.hex"
+        ],
+        "settings": {
+          "foreground": "#c678dd"
+        }
+      },
+      {
+        "name": "Yellow - Keywords",
+        "scope": [
+          "keyword.control",
+          "keyword.operator",
+          "variable.language",
+          "constant.language",
+          "storage.modifier",
+          "entity.other.ng-binding-name.template.html",
+          "source.css meta.property-value",
+          "string.regexp",
+          "punctuation.definition.template-expression.begin",
+          "support.type.object.module",
+          "punctuation.separator.statement.and.shell"
+        ],
+        "settings": {
+          "foreground": "#FFD14A"
+        }
+      },
+      {
+        "name": "blue",
+        "scope": [
+          "storage.type",
+          "meta.definition.method",
+          "meta.definition.function",
+          "entity.name.type.class",
+          "meta.function-call",
+          "entity.name.tag",
+          "entity.name.tag",
+          "entity.other.attribute-name.id.css",
+          "entity.other.attribute-name.class.css",
+          "meta.at-rule.keyframes",
+          "support.function.misc",
+          "support.class.component",
+          "support.function.builtin.shell",
+          "entity.name.command.shell"
+        ],
+        "settings": {
+          "foreground": "#00AEFF"
+        }
+      },
+      {
+        "name": "Cyan 200",
+        "scope": [
+          "meta.attribute",
+          "entity.other.attribute-name.tsx",
+          "entity.other.attribute-name.jsx",
+          "entity.other.attribute-name.pseudo-class",
+          "entity.other.attribute-name.pseudo-element",
+          "storage.type.function",
+          "storage.type.class",
+          "entity.other.ng-binding-name.event.html",
+          "entity.other.ng-binding-name.property"
+        ],
+        "settings": {
+          "foreground": "#80DEEA"
+        }
+      },
+      {
+        "name": "[CSS] - Keyword",
+        "scope": [
+          "source.css punctuation.definition.keyword",
+          "source.css keyword",
+          "entity.name.tag.reference",
+          "keyword.other.important",
+          "string.unquoted.heredoc.expanded.shell",
+          "keyword.control.at-rule",
+          "punctuation.definition.tag.end",
+          "punctuation.definition.tag.begin"
+          //
+        ],
+        "settings": {
+          "foreground": "#f6b"
+        }
+      },
+      {
+        "name": "types",
+        "scope": [
+          "entity.name.type",
+          "support.type.primitive",
+          "meta.interface",
+          "storage.type.class.jsdoc",
+          "variable.other.normal.shell",
+          "variable.parameter.positional.shell",
+          "variable.other.assignment.shell",
+          // "support.type.builtin.tsx"
+          "support.type.builtin"
+        ],
+        "settings": {
+          "foreground": "#4DB6AC"
+        }
+      },
+      {
+        "name": "red test",
+        "scope": [
+          "storage.type.string",
+          "meta.toc-list.id.html",
+          "storage.identifier",
+          "function.support",
+          "function.support.builtin",
+          "function.support.core" //
+        ],
+        "settings": {
+          "foreground": "#F00"
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "sideBar.border": "#00000000",
+    "statusBar.border": "#00000000",
+    "terminal.border": "#00000000",
+    "panel.border": "#00000000",
+    "activityBar.border": "#00000000",
+    "activityBar.activeBorder": "#00000000",
+    "list.focusAndSelectionOutline": "#00000000",
+    "editorIndentGuide.activeBackground1": "#00000000",
+    "editorGroupHeader.tabsBackground": "#00000000",
+    "sideBar.background": "#00000000",
+    "sideBarSectionHeader.border": "#00000000",
+    "sideBarSectionHeader.background": "#00000000",
+    "editor.background": "#00000000",
+    "editorIndentGuide.background1": "#00000000",
+    "peekViewEditor.background": "#00000000",
+    "peekViewEditorGutter.background": "#00000000",
+    "peekViewTitle.background": "#00000000",
+    "peekViewResult.background": "#00000000",
+    "tab.border": "#00000000",
+    "tab.activeModifiedBorder": "#00000000",
+    "tab.inactiveModifiedBorder": "#00000000",
+    "tab.activeBackground": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+    "tab.lastPinnedBorder": "#00000000",
+    "editorOverviewRuler.border": "#00000000",
+    "statusBar.background": "#00000000",
+    "statusBar.debuggingBackground": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBar.focusBorder": "#00000000",
+    "statusBarItem.activeBackground": "#00000000",
+    "widget.shadow": "#00000000",
+    "focusBorder": "#00000000",
+    "tree.indentGuidesStroke": "#00000000",
+    "panel.background": "#00000000",
+    "activityBar.background": "#00000000",
+    "activityBar.dropBorder": "#00000000",
+    "peekViewEditor.matchHighlightBackground": "#00000000",
+    "peekViewEditor.matchHighlightBorder": "#00000000",
+    "titleBar.activeBackground": "#0C1125",
+    "titleBar.inactiveBackground": "#0C1125",
+    "activityBarBadge.background": "#0C1125",
+    "editorWidget.background": "#0C1125",
+    "settings.dropdownBackground": "#0C1125",
+    "input.background": "#0C1125",
+    "badge.background": "#0C1125",
+    "activityBar.inactiveForeground": "#01589b99",
+    "button.background": "#01589b99",
+    "panelTitle.inactiveForeground": "#01589b99",
+    "editorLineNumber.foreground": "#01589b99",
+    "editorSuggestWidget.border": "#01589b99",
+    "list.hoverBackground": "#01589b99",
+    "list.inactiveSelectionBackground": "#01589b99",
+    "list.activeSelectionBackground": "#01589b99",
+    "input.border": "#01589b99",
+    "editorLineNumber.activeForeground": "#1979c2",
+    "editorWidget.border": "#1979c2",
+    "peekView.border": "#1979c2",
+    "statusBar.foreground": "#1979c2",
+    "activityBar.foreground": "#29B6F6",
+    "activityBarBadge.foreground": "#29B6F6",
+    "sideBarSectionHeader.foreground": "#29B6F6",
+    "sideBarTitle.foreground": "#29B6F6",
+    "tab.activeBorder": "#29B6F6",
+    "icon.foreground": "#29B6F6",
+    "badge.foreground": "#29B6F6",
+    "list.focusOutline": "#29B6F6",
+    "panelTitle.activeForeground": "#29B6F6",
+    "panelTitle.activeBorder": "#29B6F6",
+    "titleBar.activeForeground": "#29B6F6",
+    "sideBar.foreground": "#81bae6",
+    "gitDecoration.modifiedResourceForeground": "#81bae6",
+    "gitDecoration.untrackedResourceForeground": "#81bae6",
+    "gitDecoration.ignoredResourceForeground": "#81bae6",
+    "gitDecoration.addedResourceForeground": "#81bae6",
+    "gitDecoration.renamedResourceForeground": "#81bae6",
+    "tab.activeBorderTop": "#00000000",
+    "editorGroupHeader.tabsBorder": "#00000000"
+  },
+  /*
+    If the theme doesn't support semantic tokens, 
+    you may need to change this setting from 
+    Editor < Semantic Highlighting < "configuredByTheme" to "true":
+
+    Note: Dart & Flutter requires this to be true, 
+                      so... most of the formatting is below:
+                      not all is tested, and some fields might be unnecessary
+                      BUT it works, for the most part :)....
+  **/
+  "editor.semanticTokenColorCustomizations": {
+    "rules": {
+      "keyword.void": {
+        "foreground": "#ffff99",
+        "fontStyle": "underline"
+      },
+      "keyword": {
+        "foreground": "#ffd399",
+        "fontStyle": "underline"
+      },
+      "keyword.class": {
+        "foreground": "#ffff99",
+        "fontStyle": "underline"
+      },
+      "keyword.operator": {
+        "foreground": "#ffff99",
+        "fontStyle": "underline"
+      },
+      "keyword.control": {
+        "foreground": "#ffff99",
+        "fontStyle": "underline"
+      },
+      "keyword.operator.new": {
+        "foreground": "#C678DD",
+        "fontStyle": "underline"
+      },
+      "keyword.operator.expression": {
+        "foreground": "#2F372E",
+        "fontStyle": "underline"
+      },
+      "keyword.operator.logical": {
+        "foreground": "#27AE60",
+        "fontStyle": "underline"
+      },
+      "property": {
+        "foreground": "#ECD7BC",
+        "fontStyle": "bold"
+      },
+      "property.declaration": {
+        "foreground": "#282C34",
+        "fontStyle": "italic bold"
+      },
+      "property.readonly.declaration": {
+        "foreground": "#D99058",
+        "fontStyle": "strikethrough"
+      },
+      "property.static": {
+        "foreground": "#56B6C2",
+        "fontStyle": "italic bold"
+      },
+      "property.static.declaration": {
+        "foreground": "#D99058",
+        "fontStyle": "italic bold"
+      },
+      "property.other": {
+        "foreground": "#ECD7BC",
+        "fontStyle": "strikethrough bold"
+      },
+      "property.other.declaration": {
+        "foreground": "#ECD7BC",
+        "fontStyle": "strikethrough bold"
+      },
+      "variable.other.property": {
+        "foreground": "#75539E",
+        "fontStyle": "underline bold strikethrough"
+      },
+      "comment": {
+        "foreground": "#FF3F34",
+        "fontStyle": "italic"
+      },
+      "comment.documentation": {
+        "foreground": "#FF3F34",
+        "fontStyle": "italic"
+      },
+    }
+  },
+  "editor.semanticHighlighting.enabled": true,
+}
